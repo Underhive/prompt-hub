@@ -11,7 +11,7 @@ We're creating this repository of prompts which can maybe help people just stepp
 
 ## Schema 
 It's a list of json objects and each object is supposed to define a single prompt (system prompt + input prompt)
-```json
+```js
 {
   "category": "", // name the category as you see fit
   "task": "", // sub-category of the task that this particular prompt is supposed to help with
