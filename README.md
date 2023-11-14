@@ -9,6 +9,12 @@ We can't close-source every single thing we create, we need to put out things in
 
 We're creating this repository of prompts which can maybe help people just stepping into the world of LLMs.
 
+## Mongo Collection
+All the data that you see in `hub.json` is also synced with a public (read-only) mongodb collection.
+```nodejs
+mongodb+srv://prompts-reader:Xa9wOlOzFz0U5OjE@underhive.0f84b.mongodb.net/
+```
+
 ## Schema 
 It's a list of json objects and each object is supposed to define a single prompt (system prompt + input prompt)
 ```js
